@@ -5,7 +5,6 @@ from blog.models import Post
 def index(request):
     # get the blog posts that are published
     posts = Post.objects.filter(published=True)
-
     # now return the rendered template
     return render(request,'blog/index.html',{'posts':posts})
 
