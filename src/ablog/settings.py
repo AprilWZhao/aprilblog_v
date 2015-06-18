@@ -56,7 +56,8 @@ ROOT_URLCONF = 'ablog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        #'DIRS': [],
+        'DIRS': ['/Projects/venv/aprilblog_v/src/ablog/templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
