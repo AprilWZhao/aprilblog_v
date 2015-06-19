@@ -106,4 +106,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
      '/Projects/venv/aprilblog_v/src/ablog/static/',
+    # why this doesn't work
+    # #os.path.join(BASE_DIR,"/ablog/static"),
 )
